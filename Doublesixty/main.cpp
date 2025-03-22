@@ -3,6 +3,7 @@
 using namespace std;
 
 //#define DOUBLESYS
+#define SIXTEEN
 
 void main() 
 {
@@ -26,6 +27,8 @@ void main()
     }
     cout << endl;
 #endif DOUBLESYS
+
+#ifdef SIXTEEN
     int n;
     cout << "¬ведите целое число: ";
     cin >> n;
@@ -55,5 +58,5 @@ void main()
         cout << maxsize[j];
     }
     cout << endl;
-
+#endif SIXTEEN
 }
